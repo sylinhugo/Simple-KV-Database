@@ -1,0 +1,541 @@
+parallels@ubuntu-22-04 kvdb ./unit_test
+Process 3: Running get operation
+Process 2: ./kvdb set apple 53
+Process 1: ./kvdb set apple 69
+Process 4: Running del operation
+Process 5: Running ts operation
+Error opening database file
+key found, and we are going to re-write
+Key not found
+Process 5: Running ts operation
+Key not found
+Process 1: ./kvdb set apple 60
+Process 5: Running ts operation
+First set: 2023-06-06 00:49:42
+Last set: 2023-06-06 00:49:42
+Process 2: ./kvdb set apple 86
+key found, and we are going to re-write
+Process 2: ./kvdb set apple 99
+key found, and we are going to re-write
+Process 3: Running get operation
+99
+Process 2: ./kvdb set apple 36
+key found, and we are going to re-write
+Process 3: Running get operation
+36
+Process 1: ./kvdb set apple 13
+key found, and we are going to re-write
+Process 5: Running ts operation
+First set: 2023-06-06 00:49:42
+Last set: 2023-06-06 00:49:42
+Process 5: Running ts operation
+First set: 2023-06-06 00:49:42
+Last set: 2023-06-06 00:49:42
+Process 2: ./kvdb set apple 11
+key found, and we are going to re-write
+Process 1: ./kvdb set apple 51
+key found, and we are going to re-write
+Process 3: Running get operation
+51
+Process 1: ./kvdb set apple 37
+key found, and we are going to re-write
+Process 5: Running ts operation
+First set: 2023-06-06 00:49:42
+Last set: 2023-06-06 00:49:43
+Process 2: ./kvdb set apple 94
+Another process is currently setting a value. Please try again later.
+Process 2: ./kvdb set apple 64
+Another process is currently setting a value. Please try again later.
+Process 1: ./kvdb set apple 61
+Another process is currently setting a value. Please try again later.
+Process 2: ./kvdb set apple 66
+Another process is currently setting a value. Please try again later.
+Process 5: Running ts operation
+First set: 2023-06-06 00:49:42
+Last set: 2023-06-06 00:49:43
+Process 5: Running ts operation
+First set: 2023-06-06 00:49:42
+Last set: 2023-06-06 00:49:43
+Process 3: Running get operation
+Another process is currently setting a value. Please try again later.
+Process 2: ./kvdb set apple 33
+Another process is currently setting a value. Please try again later.
+Process 1: ./kvdb set apple 8
+Another process is currently setting a value. Please try again later.
+Process 5: Running ts operation
+First set: 2023-06-06 00:49:42
+Last set: 2023-06-06 00:49:43
+Process 3: Running get operation
+Another process is currently setting a value. Please try again later.
+Process 2: ./kvdb set apple 4
+Another process is currently setting a value. Please try again later.
+Process 1: ./kvdb set apple 74
+Another process is currently setting a value. Please try again later.
+Process 5: Running ts operation
+Process 2: ./kvdb set apple 30
+First set: 2023-06-06 00:49:42
+Last set: 2023-06-06 00:49:43
+Another process is currently setting a value. Please try again later.
+Process 3: Running get operation
+Another process is currently setting a value. Please try again later.
+Process 2: ./kvdb set apple 17
+Another process is currently setting a value. Please try again later.
+Process 5: Running ts operation
+First set: 2023-06-06 00:49:42
+Last set: 2023-06-06 00:49:43
+Process 3: Running get operation
+Another process is currently setting a value. Please try again later.
+Process 2: ./kvdb set apple 32
+Another process is currently setting a value. Please try again later.
+Process 2: ./kvdb set apple 64
+key found, and we are going to re-write
+Process 1: ./kvdb set apple 19
+key found, and we are going to re-write
+Process 5: Running ts operation
+First set: 2023-06-06 00:49:42
+Last set: 2023-06-06 00:49:46
+Process 1: ./kvdb set apple 80
+key found, and we are going to re-write
+Process 3: Running get operation
+80
+Process 1: ./kvdb set apple 37
+key found, and we are going to re-write
+Process 5: Running ts operation
+First set: 2023-06-06 00:49:42
+Last set: 2023-06-06 00:49:47
+Process 2: ./kvdb set apple 67
+key found, and we are going to re-write
+Process 5: Running ts operation
+First set: 2023-06-06 00:49:42
+Last set: 2023-06-06 00:49:47
+Process 1: ./kvdb set apple 89
+key found, and we are going to re-write
+Process 3: Running get operation
+89
+Process 2: ./kvdb set apple 45
+Process 1: ./kvdb set apple 3
+key found, and we are going to re-write
+key found, and we are going to re-write
+Process 5: Running ts operation
+First set: 2023-06-06 00:49:42
+Last set: 2023-06-06 00:49:47
+Process 1: ./kvdb set apple 38
+key found, and we are going to re-write
+Process 3: Running get operation
+38
+Process 5: Running ts operation
+First set: 2023-06-06 00:49:42
+Last set: 2023-06-06 00:49:48
+Process 2: ./kvdb set apple 25
+key found, and we are going to re-write
+Process 1: ./kvdb set apple 32
+key found, and we are going to re-write
+Process 2: ./kvdb set apple 42
+key found, and we are going to re-write
+Process 3: Running get operation
+42
+Process 5: Running ts operation
+First set: 2023-06-06 00:49:42
+Last set: 2023-06-06 00:49:49
+Process 5: Running ts operation
+First set: 2023-06-06 00:49:42
+Last set: 2023-06-06 00:49:49
+Process 1: ./kvdb set apple 97
+key found, and we are going to re-write
+Process 2: ./kvdb set apple 6
+key found, and we are going to re-write
+Process 3: Running get operation
+6
+Process 1: ./kvdb set apple 28
+key found, and we are going to re-write
+Process 2: ./kvdb set apple 51
+Process 5: Running ts operation
+key found, and we are going to re-write
+First set: 2023-06-06 00:49:42
+Last set: 2023-06-06 00:49:50
+Process 1: ./kvdb set apple 62
+key found, and we are going to re-write
+Process 2: ./kvdb set apple 90
+key found, and we are going to re-write
+Process 3: Running get operation
+90
+Process 1: ./kvdb set apple 76
+key found, and we are going to re-write
+Process 3: Running get operation
+76
+Process 2: ./kvdb set apple 88
+key found, and we are going to re-write
+Process 3: Running get operation
+88
+Process 5: Running ts operation
+First set: 2023-06-06 00:49:42
+Last set: 2023-06-06 00:49:51
+Process 3: Running get operation
+88
+Process 5: Running ts operation
+First set: 2023-06-06 00:49:42
+Last set: 2023-06-06 00:49:51
+Process 2: ./kvdb set apple 42
+key found, and we are going to re-write
+Process 5: Running ts operation
+First set: 2023-06-06 00:49:42
+Last set: 2023-06-06 00:49:51
+Process 4: Running del operation
+Process 3: Running get operation
+Key not found
+Process 1: ./kvdb set apple 100
+Process 5: Running ts operation
+First set: 2023-06-06 00:49:51
+Last set: 2023-06-06 00:49:51
+Process 1: ./kvdb set apple 27
+key found, and we are going to re-write
+Process 2: ./kvdb set apple 7
+key found, and we are going to re-write
+Process 3: Running get operation
+7
+Process 5: Running ts operation
+First set: 2023-06-06 00:49:51
+Last set: 2023-06-06 00:49:52
+Process 3: Running get operation
+7
+Process 2: ./kvdb set apple 16
+key found, and we are going to re-write
+Process 1: ./kvdb set apple 51
+key found, and we are going to re-write
+Process 1: ./kvdb set apple 65
+key found, and we are going to re-write
+Process 1: ./kvdb set apple 29
+key found, and we are going to re-write
+Process 5: Running ts operation
+First set: 2023-06-06 00:49:51
+Last set: 2023-06-06 00:49:52
+Process 5: Running ts operation
+First set: 2023-06-06 00:49:51
+Last set: 2023-06-06 00:49:52
+Process 2: ./kvdb set apple 90
+key found, and we are going to re-write
+Process 3: Running get operation
+90
+Process 1: ./kvdb set apple 3
+key found, and we are going to re-write
+Process 5: Running ts operation
+First set: 2023-06-06 00:49:51
+Last set: 2023-06-06 00:49:53
+Process 2: ./kvdb set apple 4
+key found, and we are going to re-write
+Process 5: Running ts operation
+First set: 2023-06-06 00:49:51
+Last set: 2023-06-06 00:49:54
+Process 3: Running get operation
+4
+Process 3: Running get operation
+4
+Process 1: ./kvdb set apple 95
+key found, and we are going to re-write
+Process 1: ./kvdb set apple 8
+key found, and we are going to re-write
+Process 5: Running ts operation
+First set: 2023-06-06 00:49:51
+Last set: 2023-06-06 00:49:54
+Process 2: ./kvdb set apple 37
+key found, and we are going to re-write
+Process 3: Running get operation
+37
+Process 3: Running get operation
+37
+Process 2: ./kvdb set apple 54
+key found, and we are going to re-write
+Process 1: ./kvdb set apple 66
+key found, and we are going to re-write
+Process 5: Running ts operation
+First set: 2023-06-06 00:49:51
+Last set: 2023-06-06 00:49:55
+Process 1: ./kvdb set apple 41
+key found, and we are going to re-write
+Process 2: ./kvdb set apple 2
+key found, and we are going to re-write
+Process 3: Running get operation
+2
+Process 2: ./kvdb set apple 18
+key found, and we are going to re-write
+Process 2: ./kvdb set apple 42
+key found, and we are going to re-write
+Process 1: ./kvdb set apple 62
+key found, and we are going to re-write
+Process 2: ./kvdb set apple 28
+key found, and we are going to re-write
+Process 5: Running ts operation
+First set: 2023-06-06 00:49:51
+Last set: 2023-06-06 00:49:56
+Process 3: Running get operation
+28
+Process 3: Running get operation
+28
+Process 3: Running get operation
+28
+Process 1: ./kvdb set apple 56
+key found, and we are going to re-write
+Process 2: ./kvdb set apple 70
+key found, and we are going to re-write
+Process 2: ./kvdb set apple 63
+key found, and we are going to re-write
+Process 1: ./kvdb set apple 75
+key found, and we are going to re-write
+Process 5: Running ts operation
+First set: 2023-06-06 00:49:51
+Last set: 2023-06-06 00:49:57
+Process 5: Running ts operation
+First set: 2023-06-06 00:49:51
+Last set: 2023-06-06 00:49:57
+Process 3: Running get operation
+75
+Process 2: ./kvdb set apple 6
+Process 1: ./kvdb set apple 17
+key found, and we are going to re-write
+key found, and we are going to re-write
+Process 5: Running ts operation
+First set: 2023-06-06 00:49:51
+Last set: 2023-06-06 00:49:58
+Process 2: ./kvdb set apple 16
+key found, and we are going to re-write
+Process 3: Running get operation
+16
+Process 2: ./kvdb set apple 57
+key found, and we are going to re-write
+Process 1: ./kvdb set apple 79
+key found, and we are going to re-write
+Process 3: Running get operation
+79
+Process 2: ./kvdb set apple 97
+key found, and we are going to re-write
+Process 5: Running ts operation
+First set: 2023-06-06 00:49:51
+Last set: 2023-06-06 00:49:59
+Process 1: ./kvdb set apple 52
+key found, and we are going to re-write
+Process 2: ./kvdb set apple 82
+key found, and we are going to re-write
+Process 1: ./kvdb set apple 9
+key found, and we are going to re-write
+Process 3: Running get operation
+9
+Process 5: Running ts operation
+First set: 2023-06-06 00:49:51
+Last set: 2023-06-06 00:50:00
+Process 3: Running get operation
+9
+Process 2: ./kvdb set apple 72
+key found, and we are going to re-write
+Process 3: Running get operation
+72
+Process 5: Running ts operation
+First set: 2023-06-06 00:49:51
+Last set: 2023-06-06 00:50:00
+Process 3: Running get operation
+72
+Process 2: ./kvdb set apple 9
+Process 1: ./kvdb set apple 43
+key found, and we are going to re-write
+key found, and we are going to re-write
+Process 1: ./kvdb set apple 15
+key found, and we are going to re-write
+Process 5: Running ts operation
+First set: 2023-06-06 00:49:51
+Last set: 2023-06-06 00:50:01
+Process 5: Running ts operation
+First set: 2023-06-06 00:49:51
+Last set: 2023-06-06 00:50:01
+Process 3: Running get operation
+15
+Process 2: ./kvdb set apple 81
+key found, and we are going to re-write
+Process 4: Running del operation
+Process 2: ./kvdb set apple 62
+Process 3: Running get operation
+Process 1: ./kvdb set apple 87
+62
+key found, and we are going to re-write
+Process 1: ./kvdb set apple 94
+key found, and we are going to re-write
+Process 1: ./kvdb set apple 51
+key found, and we are going to re-write
+Process 5: Running ts operation
+First set: 2023-06-06 00:50:01
+Last set: 2023-06-06 00:50:02
+Process 3: Running get operation
+51
+Process 1: ./kvdb set apple 31
+key found, and we are going to re-write
+Process 1: ./kvdb set apple 23
+key found, and we are going to re-write
+Process 2: ./kvdb set apple 97
+key found, and we are going to re-write
+Process 2: ./kvdb set apple 10
+Process 5: Running ts operation
+First set: 2023-06-06 00:50:01
+Last set: 2023-06-06 00:50:02
+key found, and we are going to re-write
+Process 5: Running ts operation
+First set: 2023-06-06 00:50:01
+Last set: 2023-06-06 00:50:02
+Process 2: ./kvdb set apple 60
+key found, and we are going to re-write
+Process 3: Running get operation
+60
+Process 5: Running ts operation
+First set: 2023-06-06 00:50:01
+Last set: 2023-06-06 00:50:03
+Process 1: ./kvdb set apple 72
+key found, and we are going to re-write
+Process 1: ./kvdb set apple 51
+key found, and we are going to re-write
+Process 3: Running get operation
+51
+Process 5: Running ts operation
+First set: 2023-06-06 00:50:01
+Last set: 2023-06-06 00:50:03
+Process 2: ./kvdb set apple 61
+key found, and we are going to re-write
+Process 3: Running get operation
+61
+Process 1: ./kvdb set apple 39
+key found, and we are going to re-write
+Process 2: ./kvdb set apple 38
+key found, and we are going to re-write
+Process 2: ./kvdb set apple 25
+key found, and we are going to re-write
+Process 3: Running get operation
+25
+Process 2: ./kvdb set apple 1
+key found, and we are going to re-write
+Process 5: Running ts operation
+First set: 2023-06-06 00:50:01
+Last set: 2023-06-06 00:50:04
+Process 1: ./kvdb set apple 47
+key found, and we are going to re-write
+Process 2: ./kvdb set apple 56
+key found, and we are going to re-write
+Process 1: ./kvdb set apple 93
+key found, and we are going to re-write
+Process 1: ./kvdb set apple 1
+key found, and we are going to re-write
+Process 3: Running get operation
+1
+Process 2: ./kvdb set apple 74
+key found, and we are going to re-write
+Process 5: Running ts operation
+First set: 2023-06-06 00:50:01
+Last set: 2023-06-06 00:50:05
+Process 2: ./kvdb set apple 25
+key found, and we are going to re-write
+Process 5: Running ts operation
+First set: 2023-06-06 00:50:01
+Last set: 2023-06-06 00:50:05
+Process 1: ./kvdb set apple 8
+key found, and we are going to re-write
+Process 3: Running get operation
+8
+Process 3: Running get operation
+8
+Process 3: Running get operation
+8
+Process 3: Running get operation
+Process 2: ./kvdb set apple 74
+8
+key found, and we are going to re-write
+Process 1: ./kvdb set apple 2
+key found, and we are going to re-write
+Process 5: Running ts operation
+First set: 2023-06-06 00:50:01
+Last set: 2023-06-06 00:50:06
+Process 1: ./kvdb set apple 33
+key found, and we are going to re-write
+Process 2: ./kvdb set apple 34
+key found, and we are going to re-write
+Process 5: Running ts operation
+First set: 2023-06-06 00:50:01
+Last set: 2023-06-06 00:50:07
+Process 1: ./kvdb set apple 78
+key found, and we are going to re-write
+Process 1: ./kvdb set apple 54
+key found, and we are going to re-write
+Process 1: ./kvdb set apple 42
+key found, and we are going to re-write
+Process 3: Running get operation
+42
+Process 3: Running get operation
+42
+Process 5: Running ts operation
+First set: 2023-06-06 00:50:01
+Last set: 2023-06-06 00:50:07
+Process 2: ./kvdb set apple 81
+key found, and we are going to re-write
+Process 1: ./kvdb set apple 56
+key found, and we are going to re-write
+Process 3: Running get operation
+56
+Process 1: ./kvdb set apple 87
+key found, and we are going to re-write
+Process 5: Running ts operation
+First set: 2023-06-06 00:50:01
+Last set: 2023-06-06 00:50:08
+Process 2: ./kvdb set apple 23
+key found, and we are going to re-write
+Process 2: ./kvdb set apple 90
+key found, and we are going to re-write
+Process 5: Running ts operation
+First set: 2023-06-06 00:50:01
+Last set: 2023-06-06 00:50:08
+Process 1: ./kvdb set apple 5
+key found, and we are going to re-write
+Process 2: ./kvdb set apple 51
+key found, and we are going to re-write
+Process 3: Running get operation
+51
+Process 3: Running get operation
+51
+Process 5: Running ts operation
+First set: 2023-06-06 00:50:01
+Last set: 2023-06-06 00:50:09
+Process 3: Running get operation
+Process 1: ./kvdb set apple 82
+51
+key found, and we are going to re-write
+Process 3: Running get operation
+82
+Process 2: ./kvdb set apple 50
+key found, and we are going to re-write
+Process 5: Running ts operation
+First set: 2023-06-06 00:50:01
+Last set: 2023-06-06 00:50:10
+Process 2: ./kvdb set apple 5
+key found, and we are going to re-write
+Process 1: ./kvdb set apple 75
+key found, and we are going to re-write
+Process 2: ./kvdb set apple 62
+key found, and we are going to re-write
+Process 3: Running get operation
+62
+Process 5: Running ts operation
+First set: 2023-06-06 00:50:01
+Last set: 2023-06-06 00:50:10
+Process 1: ./kvdb set apple 14
+key found, and we are going to re-write
+Process 5: Running ts operation
+First set: 2023-06-06 00:50:01
+Last set: 2023-06-06 00:50:10
+Process 1: ./kvdb set apple 42
+key found, and we are going to re-write
+Process 3: Running get operation
+42
+Process 2: ./kvdb set apple 1
+key found, and we are going to re-write
+Process 5: Running ts operation
+First set: 2023-06-06 00:50:01
+Last set: 2023-06-06 00:50:11
+Process 3: Running get operation
+1
+Process 5: Running ts operation
+First set: 2023-06-06 00:50:01
+Last set: 2023-06-06 00:50:11
+zsh: terminated  ./unit_test
